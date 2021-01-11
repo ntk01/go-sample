@@ -7,7 +7,7 @@ services:
   api:
     build:
       context: .
-      dockerfile: docker/api/Dockerfile
+      dockerfile: Dockerfile
     volumes:
       - ./src/api:/go/src/api
       - vendor:/go/src/api/vendor
