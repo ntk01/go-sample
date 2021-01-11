@@ -1,0 +1,21 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - echo Logging in to Amazon ECR...
+      - $(aws ecr get-login --no-include-email --region ap-northeast-1)
+  build:
+    commands:
+      - echo Building the Docker image...
+      - docker image build --file Dockerfile . -t go-sample_api:latest
+      - docker tag go-sample_api:latest 921589017758.dkr.ecr.ap-northeast-1.amazonaws.com/go-sample_api:latest
+  post_build:
+    commands:
+      - echo Pushing the Docker image...
+      - docker push 921589017758.dkr.ecr.ap-northeast-1.amazonaws.com/go-sample_api:latest
+      - echo Writing image definitions file...
+      - printf '[{"name":"container","imageUri":"%s"}]' 921589017758.dkr.ecr.ap-northeast-1.amazonaws.com/go-sample_api:latest > imagedefinitions.json
+artifacts:
+  files:
+    - imagedefinitions.json
