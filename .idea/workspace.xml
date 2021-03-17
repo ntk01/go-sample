@@ -1,41 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3a778bf-857a-4552-add4-dcb5d27cdf1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/handlers/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/Gopkg.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/Gopkg.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/gin-bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/main.go" beforeDir="false" />
-    </list>
+    <list default="true" id="d3a778bf-857a-4552-add4-dcb5d27cdf1f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
-    <execution />
-  </component>
-  <component name="GOROOT" path="/usr/local/Cellar/go/1.16/libexec" />
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.14.7/libexec" />
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1gFXzkzai6EcfiPHcIRHZDMghVa" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
@@ -43,81 +25,23 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="sample" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$" />
-      <package value="sample" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="sample" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
-      <package value="sample" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-  </component>
-  <component name="TaskManager">
-    <servers />
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
-    <environment>
-      <map>
-        <entry key="GOPROXY" value="direct" />
-      </map>
-    </environment>
     <proxy>direct</proxy>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="3215" y="468" width="439" height="576" key="#Build_Tags_&amp;_Vendoring" timestamp="1615739193534">
-      <screen x="1792" y="23" width="2560" height="1417" />
-    </state>
-    <state x="3215" y="468" width="439" height="576" key="#Build_Tags_&amp;_Vendoring/1792.23.2560.1417/0.23.1792.1031@1792.23.2560.1417" timestamp="1615739193534" />
-    <state x="3234" y="690" key="#GOROOT" timestamp="1615737452003">
-      <screen x="1792" y="23" width="2560" height="1417" />
-    </state>
-    <state x="3234" y="690" key="#GOROOT/1792.23.2560.1417/0.23.1792.1031@1792.23.2560.1417" timestamp="1615737452003" />
-    <state x="3141" y="508" width="586" height="490" key="find.popup" timestamp="1615739250368">
-      <screen x="1792" y="23" width="2560" height="1417" />
-    </state>
-    <state x="3141" y="508" width="586" height="490" key="find.popup/1792.23.2560.1417/0.23.1792.1031@1792.23.2560.1417" timestamp="1615739250368" />
   </component>
 </project>
