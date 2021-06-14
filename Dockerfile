@@ -10,4 +10,3 @@ RUN go get github.com/codegangsta/gin
 RUN go get github.com/gin-gonic/gin
 
 CMD gin -i run
-
