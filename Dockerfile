@@ -1,12 +1,11 @@
-FROM golang:1.12.0-alpine3.9
+FROM golang:1.16.5-alpine3.13
 
-COPY src/api /go/src/api/
+WORKDIR /login
 
-WORKDIR /go/src/api/
+COPY . /login
 
 RUN apk update
 RUN apk add --no-cache git
 RUN go get github.com/codegangsta/gin
-RUN go get github.com/gin-gonic/gin
 
 CMD gin -i run

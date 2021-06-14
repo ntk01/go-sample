@@ -5,7 +5,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3a778bf-857a-4552-add4-dcb5d27cdf1f" name="Default Changelist" comment="" />
+    <list default="true" id="d3a778bf-857a-4552-add4-dcb5d27cdf1f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildspec.yml" beforeDir="false" afterPath="$PROJECT_DIR$/buildspec.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/Gopkg.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/Gopkg.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/gin-bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/main.go" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +23,7 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="GOROOT" path="/usr/local/Cellar/go/1.14.7/libexec" />
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.16/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -57,6 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1623685775917</updated>
       <workItem from="1623685777019" duration="52000" />
+      <workItem from="1623685843396" duration="442000" />
     </task>
     <servers />
   </component>
@@ -64,6 +74,15 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
@@ -74,5 +93,11 @@
       </map>
     </environment>
     <proxy>direct</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3261" y="649" key="#GOROOT" timestamp="1623685943212">
+      <screen x="1792" y="23" width="2560" height="1417" />
+    </state>
+    <state x="3261" y="649" key="#GOROOT/1792.23.2560.1417/0.23.1792.1034@1792.23.2560.1417" timestamp="1623685943212" />
   </component>
 </project>

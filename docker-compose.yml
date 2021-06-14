@@ -1,17 +1,11 @@
 version: '3'
 
-volumes:
-  vendor:
-
 services:
-  api:
+  app:
     build:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ./src/api:/go/src/api
-      - vendor:/go/src/api/vendor
+      - .:/login
     ports:
       - 3001:3001
-    tty:
-      true
